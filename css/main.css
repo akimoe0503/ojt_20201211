@@ -1,0 +1,87 @@
+/* -----------------main------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 0;
+}
+
+main h1 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 55px;
+}
+
+.blog-wrapper {
+  width: 1152px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 64px;
+  box-sizing: border-box;
+  /* background-color: powderblue; */
+}
+
+.blog-wrapper p {
+  font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.blog-inner {
+  border: #999 solid 1px;
+  margin-bottom: 63px;
+}
+
+.blog-inner img {
+  width: 320px;
+  height: 206px;
+  vertical-align: top;
+}
+
+.blog-text {
+  height: 196px;
+  position: relative;
+  padding: 15px;
+}
+
+.blog-text p {
+  margin-bottom: 17px;
+}
+
+.read-wrapper {
+  width: 75px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+.read-wrapper p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.read-border {
+  display: block;
+  background: #000;
+  width: 16px;
+  height: 1px;
+  margin-top: 14px;
+}
+
+.more-wrapper {
+  width: 1152px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.more-wrapper p {
+ font-weight: bold;
+ margin-right: 20px; 
+}
