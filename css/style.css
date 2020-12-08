@@ -1,0 +1,17 @@
+#nav {
+    list-style: none;
+    text-align:right;
+}
+   
+#nav li {
+    width: 140px;
+    text-align: center;
+    display:inline; 
+    padding:0 10px;
+}
+   
+#nav li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
