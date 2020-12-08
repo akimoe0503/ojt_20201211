@@ -50,8 +50,9 @@ header {
     right: 3px;
 }
 
-h1 {
+header h1 {
     margin-top: 19px;
     font-size: 24px;
     font-weight: normal;
+    font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
 }
