@@ -1,17 +1,31 @@
+
 #nav {
+    height: 40px;
+    padding: 50px;
     list-style: none;
     text-align:right;
 }
    
 #nav li {
-    width: 140px;
     text-align: center;
     display:inline; 
     padding:0 10px;
+    font-size: 16px;
 }
    
 #nav li a {
     text-decoration: none;
     color:black;
     font-weight: bold;
+}
+
+/* header photo */
+.top-photo {
+    position: relative;
+}
+
+.top-logo {
+    position: absolute;
+    top: 11px;
+    left: 65px;
 }
