@@ -1,7 +1,15 @@
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+header {
+    height: 640px;
+    padding: 30px;
+}
 
 #nav {
     height: 40px;
-    padding: 50px;
     list-style: none;
     text-align:right;
 }
@@ -27,5 +35,15 @@
 .top-logo {
     position: absolute;
     top: 11px;
-    left: 65px;
+    left: 0px;
+}
+
+.sign-logo {
+    position: absolute;
+    bottom: 9px;
+    right: 3px;
+}
+
+h1 {
+    font-size: 24px;
 }
