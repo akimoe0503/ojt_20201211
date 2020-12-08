@@ -1,5 +1,5 @@
 .container {
-    max-block-size: 1152px;
+    max-width: 1152px;
     /* margin: 0 auto; */
     position: relative;
     display: flex;
@@ -47,7 +47,6 @@ header {
     bottom: 9px;
     right: 3px;
 }
-
 
 h1 {
     font-size: 24px;
