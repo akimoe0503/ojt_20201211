@@ -58,6 +58,11 @@ header p {
     font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
 }
 
+.header-br{
+    display: none;
+}
+
+
 
 /* スマフォ用 */
 @media screen and (max-width: 767px){
@@ -73,6 +78,9 @@ header p {
         position: static;
         display: flex;
         margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 35%;
     }
 
     .center-img {
@@ -80,19 +88,23 @@ header p {
         height: auto;
     }
 
-    .a{
+    .sp-img{
         position: relative;
     }
 
     .sign-logo{
         position: absolute;
-        top: 10px;
-        left: 8px;
+        width: 60%;
+        top: 14px;
+        left: 10px;
     }
 
     header p {
-        word-break: normal;
         text-align: center;
+    }
+
+    .header-br{
+        display: block;
     }
 
 }
