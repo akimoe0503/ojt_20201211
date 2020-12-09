@@ -36,7 +36,7 @@
 /* header photo */
 .main-photo{
     margin: 0 auto;
-    width: 1024px;
+    /* width: 1024px; */
 }
 
 .top-logo {
@@ -65,8 +65,28 @@ header p {
         display: none;
     }
 
+    .container{
+        position: static;
+    }
+
     .top-logo {
-        display: block;
+        position: static;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .main-photo {
+        position: relative;
+    }
+
+    .sign-logo{
+        top: 10px;
+        left: 30px;
+    }
+
+    header p {
+        word-break: normal;
+        text-align: center;
     }
 
 }
