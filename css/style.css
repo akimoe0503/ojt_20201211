@@ -36,19 +36,21 @@
 /* header photo */
 .main-photo{
     margin: 0 auto;
-    /* width: 1024px; */
+    width: 1024px;
 }
 
 .top-logo {
     position: absolute;
     top: 11px;
     left: 0px;
+    z-index: 10;
 }
 
 .sign-logo {
     position: absolute;
     bottom: 15px;
     right: 3px;
+    z-index: 10;
 }
 
 header p {
@@ -62,8 +64,6 @@ header p {
     display: none;
 }
 
-
-
 /* スマフォ用 */
 @media screen and (max-width: 767px){
     #nav {
@@ -72,6 +72,11 @@ header p {
 
     .container{
         position: static;
+    }
+
+    .main-photo{
+        margin: 0 auto;
+        width: 400px;
     }
 
     .top-logo {

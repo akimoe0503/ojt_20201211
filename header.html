@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <title>American village</title>
 </head>
 
@@ -23,21 +25,65 @@
                 <!-- small-logo左上のロゴ -->
                 <img class="top-logo" src="img/logo.png" alt="アメリカンビレッジロゴ">
                 <div class="sp-img">
-                    <picture>
                     <!-- top photo -->
-                        <source srcset="img/visual_1_sp.png" media="(max-width: 767px)">
-                        <img class="center-img" src="img/visual_1_pc.png" alt="アメリカンビレッジ夜景">
-                    </picture>
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_1_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_1_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_2_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_2_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_3_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_3_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_4_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_4_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_5_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_5_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_6_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_6_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide">
+                                <picture class="center-img">
+                                    <source srcset="img/visual_7_sp.png" media="(max-width: 767px)">
+                                    <img src="img/visual_7_pc.png" alt="アメリカンビレッジ夜景">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
                     <picture>
                     <!-- sign-logo右側のロゴ -->
                         <source srcset="img/visual_text_sp.png" media="(max-width: 767px)">
                         <img class="sign-logo" src="img/visual_text_pc.png" alt="アメリカンビレッジのサインロゴ">
                     </picture>
-                </div>
                 <p>進化し続ける「街」<br class="header-br">アメリカンビレッジマガジン<p>
                 </div>
-        </div>
+            </div>
     </header>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
