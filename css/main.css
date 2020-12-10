@@ -1,5 +1,16 @@
 /* -----------------main------------------- */
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  opacity: 0.8 ;
+  text-decoration: none;
+}
+
+
 main {
   display: flex;
   flex-direction: column;
@@ -32,6 +43,11 @@ main h1 {
 .blog-inner {
   width: 320px;
   margin-bottom: 63px;
+  transition: box-shadow .10s;
+}
+
+.blog-inner:hover{
+  box-shadow: 0 6px 12px #999;
 }
 
 .blog-inner img {
@@ -54,27 +70,32 @@ main h1 {
 
 .read-wrapper {
   width: 75px;
-  height: 32px;
+  height: 27px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   position: absolute;
-  position: absolute;
   right: 16px;
   bottom: 16px;
+  overflow: hidden;
 }
 
 .read-wrapper p {
   font-size: 12px;
-  margin-bottom: 0;
+  margin-bottom: 14px;
 }
+
 
 .read-border {
   display: block;
   background: #000;
-  width: 16px;
   height: 1px;
-  margin-top: 14px;
+  width: 16px;
+  transition: transform 0.4s;
+}
+
+.blog-inner:hover .read-border {
+  transform:scaleX(-7.5);
 }
 
 .more-wrapper {
@@ -109,13 +130,14 @@ footer p {
   }
 
   main {
-    padding: 50px 0 20px;
+    padding: 13.33333333vw 0 5.3333333vw;
+    box-sizing: border-box;
   }
 
   main h1 {
-    font-size: 30px;
+    font-size: 6.2555555vw;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 4vw;
   }
 
   .blog-wrapper {
@@ -123,26 +145,28 @@ footer p {
     height: auto;
     display: block;
     padding: 0 8%;
+    box-sizing: border-box;
   }
 
   .blog-wrapper p {
-    font-size: 16px;
+    font-size: 3.2vw;
     letter-spacing: 0;
   }
 
   .blog-inner {
     width: 100%;
+    height: 105.73333333vw;
     margin-bottom: 6%;
   }
 
   .blog-inner img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
   
 .blog-text {
-  height: 180px;
+  height: 52.533333333333vw;
   padding: 5%;
 }
 
@@ -151,8 +175,8 @@ footer p {
 }
 
 .read-wrapper {
-  width: 75px;
-  height: 32px;
+  width: 19vw;
+  height: 10.666666666vw;
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -161,18 +185,21 @@ footer p {
 }
 
 .read-wrapper p {
-  font-size: 6px;
+  font-size: 2.666666vw;
   margin-bottom: 0;
 }
 
 .read-border {
   display: block;
   background: #000;
-  width: 16px;
+  width: 4.2666666vw;
   height: 1px;
   margin-top: 14px;
 }
 
+.blog-inner:hover .read-border {
+  transform:scaleX(-6);
+}
   .more-wrapper {
     width: 100%;
     display: flex;
@@ -187,14 +214,14 @@ footer p {
  
  footer {
    width: 100%;
-   height: 70px;
+   height: 18.6666666vw;
    background: #000;
    display: flex;
    justify-content: center;
  }
 
  footer p {
-   font-size: 11px;
+   font-size: 2.8vw;
  }
  
  .fa-chevron-right {
