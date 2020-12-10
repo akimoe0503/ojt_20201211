@@ -1,5 +1,3 @@
-
-
 .container {
     max-width: 1152px;
     height: 640px;
@@ -55,6 +53,7 @@
 header p {
     margin-top: 19px;
     font-size: 20px;
+    text-align: left;
     font-weight: normal;
     font-family: YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
 }

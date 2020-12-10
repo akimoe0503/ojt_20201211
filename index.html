@@ -2,130 +2,176 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
-    <title>American village</title>
+  <title>American village</title>
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <!-- headerここから -->
-            <ul id="nav">
-                <li><a href="#">Menu01</a></li>
-                <li><a href="#">Menu02</a></li>
-                <li><a href="#">Menu03</a></li>
-                <li><a href="#">Menu04</a></li>
-            </ul>
-            <div class="main-photo">
-                <!-- small-logo左上のロゴ -->
-                <img class="top-logo" src="img/logo.png" alt="アメリカンビレッジロゴ">
-                <div class="sp-img">
-                    <picture>
-                    <!-- top photo -->
-                        <source srcset="img/visual_1_sp.png" media="(max-width: 767px)">
-                        <img class="center-img" src="img/visual_1_pc.png" alt="アメリカンビレッジ夜景">
-                    </picture>
 
-                    
-                    <picture>
-                    <!-- sign-logo右側のロゴ -->
-                        <source srcset="img/visual_text_sp.png" media="(max-width: 767px)">
-                        <img class="sign-logo" src="img/visual_text_pc.png" alt="アメリカンビレッジのサインロゴ">
-                    </picture>
-                </div>
-                <p>進化し続ける「街」 アメリカンビレッジマガジン<p>
-                </div>
+  <!-- ヘッダーここまで -->
+  <header>
+    <div class="container">
+      <!-- headerここから -->
+      <ul id="nav">
+        <li><a href="#">Menu01</a></li>
+        <li><a href="#">Menu02</a></li>
+        <li><a href="#">Menu03</a></li>
+        <li><a href="#">Menu04</a></li>
+      </ul>
+      <div class="main-photo">
+        <!-- small-logo左上のロゴ -->
+        <img class="top-logo" src="img/logo.png" alt="アメリカンビレッジロゴ">
+        <div class="sp-img">
+          <!-- top photo -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_1_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_1_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_2_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_2_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_3_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_3_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_4_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_4_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_5_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_5_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_6_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_6_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+              <div class="swiper-slide">
+                <picture class="center-img">
+                  <source srcset="img/visual_7_sp.png" media="(max-width: 767px)">
+                  <img src="img/visual_7_pc.png" alt="アメリカンビレッジ夜景">
+                </picture>
+              </div>
+            </div>
+          </div>
+          <picture>
+            <!-- sign-logo右側のロゴ -->
+            <source srcset="img/visual_text_sp.png" media="(max-width: 767px)">
+            <img class="sign-logo" src="img/visual_text_pc.png" alt="アメリカンビレッジのサインロゴ">
+          </picture>
         </div>
-    </header>
+        <p>進化し続ける「街」<br class="header-br">アメリカンビレッジマガジン</p>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで -->
 
-    <!-- ヘッダーここまで -->
-
-    <!-- main ここから -->
-    <main>
-        <h1>Latest Articles</h1>
-        <ul class="blog-wrapper">
-          <li class="blog-inner">
-            <img src="img/post_img_1.png" alt="">
-            <div class="blog-text">
-              <p>２018 / 5 / 20</p>
-              <p>おしゃれカフェがありますよ</p>
-              <div class="read-wrapper">
-                <p>READ MORE</p>
-                <span class="read-border"></span>
-              </div>
-            </div>
-          </li>
-          <li class="blog-inner">
-            <img src="img/post_img_2.png" alt="">
-            <div class="blog-text">
-              <p>２018 / 5 / 20</p>
-              <p>おしゃれカフェがありますよ</p>
-              <div class="read-wrapper">
-                <p>READ MORE</p>
-                <span class="read-border"></span>
-              </div>
-            </div>
-          </li>
-          <li class="blog-inner">
-            <img src="img/post_img_3.png" alt="">
-            <div class="blog-text">
-              <p>２018 / 5 / 20</p>
-              <p>おしゃれカフェがありますよ</p>
-              <div class="read-wrapper">
-                <p>READ MORE</p>
-                <span class="read-border"></span>
-              </div>
-            </div>
-          </li>
-          <li class="blog-inner">
-            <img src="img/post_img_4.png" alt="">
-            <div class="blog-text">
-              <p>２018 / 5 / 20</p>
-              <p>おしゃれカフェがありますよ</p>
-              <div class="read-wrapper">
-                <p>READ MORE</p>
-                <span class="read-border"></span>
-              </div>
-            </div>
-          </li>
-          <li class="blog-inner">
-            <img src="img/post_img_5.png" alt="">
-            <div class="blog-text">
-              <p>２018 / 5 / 20</p>
-              <p>おしゃれカフェがありますよ</p>
-              <div class="read-wrapper">
-                <p>READ MORE</p>
-                <span class="read-border"></span>
-              </div>
-            </div>
-          </li>
-          <li class="blog-inner">
-            <img src="img/post_img_6.png" alt="">
-            <div class="blog-text">
-              <p>２018 / 5 / 20</p>
-              <p>おしゃれカフェがありますよ</p>
-              <div class="read-wrapper">
-                <p>READ MORE</p>
-                <span class="read-border"></span>
-              </div>
-            </div>
-          </li>
-    
-        </ul>
-        <div class="more-wrapper">
-          <p>VIEW MORE</p><i class="fas fa-chevron-right"></i>
+  <!-- main ここから -->
+  <main>
+    <h1>Latest Articles</h1>
+    <ul class="blog-wrapper">
+      <li class="blog-inner">
+        <img src="img/post_img_1.png" alt="">
+        <div class="blog-text">
+          <p>２018 / 5 / 20</p>
+          <p>おしゃれカフェがありますよ</p>
+          <div class="read-wrapper">
+            <p>READ MORE</p>
+            <span class="read-border"></span>
+          </div>
         </div>
-      </main>
-    
-      <footer>
-        <p>Copyright &copy; Shinohara. ALL RIGHTS RESERVED.</p>
-      </footer>
+      </li>
+      <li class="blog-inner">
+        <img src="img/post_img_2.png" alt="">
+        <div class="blog-text">
+          <p>２018 / 5 / 20</p>
+          <p>おしゃれカフェがありますよ</p>
+          <div class="read-wrapper">
+            <p>READ MORE</p>
+            <span class="read-border"></span>
+          </div>
+        </div>
+      </li>
+      <li class="blog-inner">
+        <img src="img/post_img_3.png" alt="">
+        <div class="blog-text">
+          <p>２018 / 5 / 20</p>
+          <p>おしゃれカフェがありますよ</p>
+          <div class="read-wrapper">
+            <p>READ MORE</p>
+            <span class="read-border"></span>
+          </div>
+        </div>
+      </li>
+      <li class="blog-inner">
+        <img src="img/post_img_4.png" alt="">
+        <div class="blog-text">
+          <p>２018 / 5 / 20</p>
+          <p>おしゃれカフェがありますよ</p>
+          <div class="read-wrapper">
+            <p>READ MORE</p>
+            <span class="read-border"></span>
+          </div>
+        </div>
+      </li>
+      <li class="blog-inner">
+        <img src="img/post_img_5.png" alt="">
+        <div class="blog-text">
+          <p>２018 / 5 / 20</p>
+          <p>おしゃれカフェがありますよ</p>
+          <div class="read-wrapper">
+            <p>READ MORE</p>
+            <span class="read-border"></span>
+          </div>
+        </div>
+      </li>
+      <li class="blog-inner">
+        <img src="img/post_img_6.png" alt="">
+        <div class="blog-text">
+          <p>２018 / 5 / 20</p>
+          <p>おしゃれカフェがありますよ</p>
+          <div class="read-wrapper">
+            <p>READ MORE</p>
+            <span class="read-border"></span>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+    <div class="more-wrapper">
+      <p>VIEW MORE</p><i class="fas fa-chevron-right"></i>
+    </div>
+  </main>
+
+  <footer>
+    <p>Copyright &copy; Shinohara. ALL RIGHTS RESERVED.</p>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
