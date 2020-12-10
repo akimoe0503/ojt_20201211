@@ -76,7 +76,8 @@ header p {
 
     .main-photo{
         margin: 0 auto;
-        width: 400px;
+        width: 100vw;
+        height: auto;
     }
 
     .top-logo {
@@ -88,8 +89,8 @@ header p {
         width: 35%;
     }
 
-    .center-img {
-        width: 100%;
+    .center-img img{
+        width: 100vw;
         height: auto;
     }
 
