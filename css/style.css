@@ -1,6 +1,5 @@
-/* header {
-    width: 100%;
-} */
+
+
 .container {
     max-width: 1152px;
     height: 640px;
@@ -79,6 +78,7 @@ header p {
         width: 100vw;
         height: auto;
     }
+
 
     .top-logo {
         position: static;
