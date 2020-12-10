@@ -62,6 +62,8 @@ header p {
     display: none;
 }
 
+
+
 /* スマフォ用 */
 @media screen and (max-width: 767px){
     #nav {
@@ -111,6 +113,7 @@ header p {
     .header-br{
         display: block;
     }
+
 
 }
 
