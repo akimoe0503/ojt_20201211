@@ -1,0 +1,10 @@
+diff a/css/style.css b/css/style.css	(rejected hunks)
+@@ -75,7 +75,7 @@
+ 
+     .main-photo{
+         margin: 0 auto;
+-        width: 400px;
++        width: 700px;
+     }
+ 
+     .top-logo {
